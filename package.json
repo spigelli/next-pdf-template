@@ -1,0 +1,26 @@
+{
+  "name": "next-pdf-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "ts-node --esm --project tsconfig.build.json --transpileOnly ./src/scripts/print.ts",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^3.1.14",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.14.0",
+    "typescript": "^5"
+  }
+}
